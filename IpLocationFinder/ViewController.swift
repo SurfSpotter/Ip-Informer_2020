@@ -12,6 +12,10 @@ import Alamofire
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imgOut: UIImageView!
+    @IBOutlet weak var labOut: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -36,18 +40,14 @@ class ViewController: UIViewController {
             "x-rapidapi-key": "b83edcd79bmsh5d8e5afc777d064p163907jsn3d631587f634"
         ]
 
-// делаем запрост через Alamofire
+// делаем запрос через Alamofire
         AF.request("https://ip1.p.rapidapi.com/188.242.12.164",headers: headers).responseJSON { (resp) in
-            print(resp.value)
-            guard let jsonArray = resp.value as? [String : Any] else { return }
-            print (jsonArray.keys)
-            
-            
-            
-            
+            //print(resp.value)
+            guard let json = resp.value as? [String : Any] else { return }
+            print (json.keys)
             
             // создаем цикл
-            for i in jsonArray {
+            for i in json {
                 
                 if i.key == "country" {
                     if let country = i.value as? String
@@ -76,12 +76,26 @@ class ViewController: UIViewController {
                         searchResults.city = city
                     }
                 }
+                
+                // грузим фотку
                 if i.key == "flag" {
                     if let fg = i.value as? [String : Any]
-                    {if let imageFlagLink = fg["svg"] {
+                    {if let imageFlagLink = fg["png"] as? String {
                         print(imageFlagLink)
-                       
-                        }}
+                        AF.request(imageFlagLink).response { (data) in
+                            self.imgOut.backgroundColor = .blue
+                            self.imgOut.contentMode = .scaleToFill
+                            searchResults.flag = UIImage(data: data.data!)
+                            self.imgOut.image = searchResults.flag
+                            //self.imgOut.image = UIImage(data: data.data!)
+                        }
+                        
+                        
+                        }
+                        if let emojiFlag = fg["emoji"] as? String {
+                            self.labOut.text = emojiFlag
+                        }
+                    }
                 }
                
             }
@@ -93,7 +107,11 @@ class ViewController: UIViewController {
 
 
 
-
+/*
+         Alamofire.request(.GET, "https://robohash.org/123.png").response { (request, response, data, error) in
+                self.myImageView.image = UIImage(data: data, scale:1)
+            }
+         */
 
 
 
