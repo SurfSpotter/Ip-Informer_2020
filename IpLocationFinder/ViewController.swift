@@ -50,6 +50,7 @@ class ViewController: UIViewController {
                                 print (json["message"]!)
                                 // and alert пишем в неи ошибка загрузки данных
                                 //  Если internal server error то скорее всего это неверный IP
+                                self.showAlert(title: "Error", message: json["message"]! as! String)
                                 return
                             }
             
@@ -111,6 +112,8 @@ class ViewController: UIViewController {
                         else {
                             // выводим ошибку загрузки данных
                             print(resp.error?.errorDescription)
+                            self.showAlert(title: "Network Error", message: "")
+                            
             }
         }
 
@@ -130,6 +133,14 @@ class ViewController: UIViewController {
 
     }
 
+    
+    
+    func showAlert(title : String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alert.addAction(action)
+        self.present(alert, animated: true, completion: nil)
+    }
 
 }
 
