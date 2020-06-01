@@ -4,7 +4,8 @@
 //
 //  Created by Алексей Чигарских on 01.06.2020.
 //  Copyright © 2020 Алексей Чигарских. All rights reserved.
-//
+//  обработать ошибку ввода неравильного IP
+//  обработать ошибку получения данных
 
 import UIKit
 import Alamofire
@@ -30,7 +31,6 @@ class ViewController: UIViewController {
             var city: String = "none"
             var flag: UIImage? = nil
         }
-
         var searchResults = SearchResults()
 
         
@@ -42,9 +42,16 @@ class ViewController: UIViewController {
 
 // делаем запрос через Alamofire
         AF.request("https://ip1.p.rapidapi.com/188.242.12.164",headers: headers).responseJSON { (resp) in
-            //print(resp.value)
+                        if resp.error == nil {
             guard let json = resp.value as? [String : Any] else { return }
-            print (json.keys)
+           
+                            //   если пришел джейсон с сообщение то выводим его
+                            if json["message"] != nil {
+                                print (json["message"]!)
+                                // and alert пишем в неи ошибка загрузки данных
+                                //  Если internal server error то скорее всего это неверный IP
+                                return
+                            }
             
             // создаем цикл
             for i in json {
@@ -101,8 +108,11 @@ class ViewController: UIViewController {
             }
            // print(searchResults)
         }
-
-
+                        else {
+                            // выводим ошибку загрузки данных
+                            print(resp.error?.errorDescription)
+            }
+        }
 
 
 
