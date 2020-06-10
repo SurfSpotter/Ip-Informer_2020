@@ -1,98 +1,20 @@
 //
-//  ViewController.swift
+//  NetworkServices.swift
 //  IpLocationFinder
 //
-//  Created by Алексей Чигарских on 01.06.2020.
+//  Created by Алексей Чигарских on 10.06.2020.
 //  Copyright © 2020 Алексей Чигарских. All rights reserved.
-// Сделать текст филд для ввода адреса
-// Сделать поля для вывода информации +
-// Сделатть кнопку для поиска +
-// Сделать кнопку "Показать на карте"
-// Контроллер в который будут передаваться координаты
-// Вью на которой будет карта и кнопка назад
+//
 
-
-
-import UIKit
+import Foundation
 import Alamofire
 
+/*
 
-class ViewController: UIViewController {
-    
-    @IBOutlet weak var imgOut: UIImageView!
-    @IBOutlet weak var emoji: UILabel!
-    @IBOutlet weak var ipTFOut: UITextField!
-    @IBOutlet weak var regionOut: UILabel!
-    @IBOutlet weak var countryOut: UILabel!
-    @IBOutlet weak var cityOut: UILabel!
-    
-    
-    
-    
-    //  создаем структуру под  нужные данные
-    struct SearchResults {
-        var longitude : Double = 0.0
-        var latitude : Double = 0.0
-        var country :String = "none"
-        var region : String = "none"
-        var city: String = "none"
-        var flag: UIImage? = nil
-        var emoji: String = ""
-    }
-    
-    // создаем объект структуры
-    var searchResults = SearchResults()
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-            
-            
-           
 
-        
-       
-    }
-    
-    
-    @IBAction func searchBtnAct(_ sender: Any) {
-        
-        
-       
-        
-        
-        
-        
-        // подгружаем данне, вкидиваем картинки
-        if ipTFOut.text != "" {
-            
-     // проверяем допустимые символы в айпи адресе
-           let characterset = CharacterSet(charactersIn: " 0123456789.")
-           if ipTFOut.text!.rangeOfCharacter(from: characterset.inverted) != nil {
-               print("string contains special characters")
-            showAlert(title: "IP adress not valid", message: "Please enter valid Ip adress")
-            return
-           }
-        getRequest(ip: ipTFOut.text!)
-          
-            
-        } else {
-            showAlert(title: "Write IP Adress!", message: "")
-        }
-        
-        
-    }
-    
-    @IBAction func showMapAct(_ sender: Any) {
-    }
-    
-    
-  
-    
+class NetRequest {
+    static let share = NetRequest()
     // Функция сетевой загрузки
-    
     func getRequest(ip: String) {
         
         //переменная хранения IP адреса
@@ -189,9 +111,6 @@ class ViewController: UIViewController {
                     }
                     
                 }
-                
-                
-                
                 // print(searchResults)
             }
             else {
@@ -205,27 +124,6 @@ class ViewController: UIViewController {
         
         
     }
-    
-    
-    // функция заполения оутлетов
-    
-    func refreshOutlets() {
-        regionOut.text = searchResults.region
-        countryOut.text = searchResults.country
-        cityOut.text = searchResults.city
-        emoji.text = searchResults.emoji
-        imgOut.image = searchResults.flag
-        
-    }
-    
-    
-    // функция показа алерта в случае ошибки
-    func showAlert(title : String, message: String) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-        alert.addAction(action)
-        self.present(alert, animated: true, completion: nil)
-    }
-    
 }
 
+ */
