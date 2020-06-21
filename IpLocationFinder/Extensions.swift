@@ -17,7 +17,6 @@ extension UIViewController {
        alertAction in
        callback()
      }))
-
      self.present(alert, animated: true, completion: nil)
    }
 
