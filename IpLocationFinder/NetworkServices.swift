@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-/*
+let vc = UIViewController()
 
 
 class NetRequest {
@@ -40,8 +40,12 @@ class NetRequest {
                     print (json["message"]!)
                     // and alert пишем в неи ошибка загрузки данных
                     //  Если internal server error то скорее всего это неверный IP
-                    self.showAlert(title: "OOps", message: "Internal error or non-existent address")
+                    
+                   /*   Не забудь обработать этот алерт!
+                     self.showAlert(title: "OOps", message: "Internal error or non-existent address")
                     print(json["message"]!)
+ 
+ */
                     return
                 }
                 
@@ -52,29 +56,33 @@ class NetRequest {
                     
                     if i.key == "country" {
                         if let country = i.value as? String
-                        {self.searchResults.country = country}
+                        {
+                            
+                            searchResults.country = country
+                            
+                        }
                     }
                     if i.key == "longitude" {
                         if let longitude = i.value as? Double
-                        {self.searchResults.longitude = longitude}
+                        {searchResults.longitude = longitude}
                     }
                     if i.key == "latitude" {
                         if let latitude = i.value as? Double
                         {
-                            self.searchResults.latitude = latitude
+                            searchResults.latitude = latitude
                         }
                     }
                     if i.key == "region" {
                         if let region = i.value as? String
                         {
-                            self.searchResults.region = region
+                            searchResults.region = region
                         }
                     }
                     
                     if i.key == "city" {
                         if let city = i.value as? String
                         {
-                            self.searchResults.city = city
+                           searchResults.city = city
                         }
                     }
                     
@@ -89,14 +97,14 @@ class NetRequest {
                             AF.request(imageFlagLink).response { (data) in
                                 
                                 // устанавливаем изображение
-                                self.imgOut.backgroundColor = .blue
-                                self.imgOut.contentMode = .scaleToFill
-                                self.searchResults.flag = UIImage(data: data.data!)
+                              //  self.imgOut.backgroundColor = .blue
+                              //  self.imgOut.contentMode = .scaleToFill
+                                searchResults.flag = UIImage(data: data.data!)
                                // self.imgOut.image = self.searchResults.flag
                                 //self.imgOut.image = UIImage(data: data.data!)
                             
                                 // после загрузки картинки заполняем все оутлеты
-                               self.refreshOutlets()
+                             //  self.refreshOutlets()
                             }
                             
                             
@@ -105,7 +113,7 @@ class NetRequest {
                             // грузим эмодзи
                             if let emojiFlag = fg["emoji"] as? String {
                                 // устанавливаем Emoji
-                                self.searchResults.emoji = emojiFlag
+                                searchResults.emoji = emojiFlag
                             }
                         }
                     }
@@ -116,7 +124,11 @@ class NetRequest {
             else {
                 // выводим ошибку загрузки данных
                 // print(resp.error?.errorDescription)
-                self.showAlert(title: "Network Error", message: "")
+                
+                /* Нe забудь обработать этот алерт!
+ self.showAlert(title: "Network Error", message: "")
+ 
+ */
                 
             }
         }
@@ -126,4 +138,4 @@ class NetRequest {
     }
 }
 
- */
+ 

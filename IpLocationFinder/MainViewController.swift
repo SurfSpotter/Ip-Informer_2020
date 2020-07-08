@@ -16,14 +16,9 @@
 import UIKit
 import Alamofire
 
-class BmWClass {
-    let price = 0
-   }
-var x3 = BmWClass()
-var array: [String: AnyObject?] = ["Buy" : x3]
-   
 
 class MainViewController: UIViewController {
+    
     
     @IBOutlet weak var imgOut: UIImageView!
     @IBOutlet weak var emoji: UILabel!
@@ -31,26 +26,6 @@ class MainViewController: UIViewController {
     @IBOutlet weak var regionOut: UILabel!
     @IBOutlet weak var countryOut: UILabel!
     @IBOutlet weak var cityOut: UILabel!
-    
-    
-   
-   
-    
-    //  создаем структуру под  нужные данные
-    struct SearchResults {
-        var longitude : Double = 0.0
-        var latitude : Double = 0.0
-        var country :String = "none"
-        var region : String = "none"
-        var city: String = "none"
-        var flag: UIImage? = nil
-        var emoji: String = ""
-    }
-    
-    // создаем объект структуры
-    var searchResults = SearchResults()
-  
-    
     
     
    
@@ -81,6 +56,8 @@ class MainViewController: UIViewController {
             
             return
            }
+        
+        NetRequest.share.getRequest(ip: ipTFOut.text!)  // Это функция сетевого слоя
         getRequest(ip: ipTFOut.text!)
           
             
@@ -98,6 +75,9 @@ class MainViewController: UIViewController {
     }
     
     // Функция сетевой загрузки
+    
+
+    
     
     func getRequest(ip: String) {
         
@@ -136,29 +116,30 @@ class MainViewController: UIViewController {
                     
                     if i.key == "country" {
                         if let country = i.value as? String
-                        {self.searchResults.country = country}
+                        {
+                            searchResults.country = country}
                     }
                     if i.key == "longitude" {
                         if let longitude = i.value as? Double
-                        {self.searchResults.longitude = longitude}
+                        {searchResults.longitude = longitude}
                     }
                     if i.key == "latitude" {
                         if let latitude = i.value as? Double
                         {
-                            self.searchResults.latitude = latitude
+                            searchResults.latitude = latitude
                         }
                     }
                     if i.key == "region" {
                         if let region = i.value as? String
                         {
-                            self.searchResults.region = region
+                           searchResults.region = region
                         }
                     }
                     
                     if i.key == "city" {
                         if let city = i.value as? String
                         {
-                            self.searchResults.city = city
+                            searchResults.city = city
                         }
                     }
                     
@@ -175,7 +156,7 @@ class MainViewController: UIViewController {
                                 // устанавливаем изображение
                                 self.imgOut.backgroundColor = .blue
                                 self.imgOut.contentMode = .scaleToFill
-                                self.searchResults.flag = UIImage(data: data.data!)
+                                searchResults.flag = UIImage(data: data.data!)
                                // self.imgOut.image = self.searchResults.flag
                                 //self.imgOut.image = UIImage(data: data.data!)
                             
@@ -189,7 +170,7 @@ class MainViewController: UIViewController {
                             // грузим эмодзи
                             if let emojiFlag = fg["emoji"] as? String {
                                 // устанавливаем Emoji
-                                self.searchResults.emoji = emojiFlag
+                                searchResults.emoji = emojiFlag
                             }
                         }
                     }

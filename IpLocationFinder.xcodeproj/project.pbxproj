@@ -16,6 +16,7 @@
 		327A30AD248577D900111AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327A30AC248577D900111AEB /* Assets.xcassets */; };
 		327A30B0248577D900111AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327A30AE248577D900111AEB /* LaunchScreen.storyboard */; };
 		327A30C02486445100111AEB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A30BF2486445100111AEB /* MapViewController.swift */; };
+		328B92C824B6616D0050E3F0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328B92C724B6616D0050E3F0 /* Model.swift */; };
 		4FEE1AFB2744D2FA0CC146CE /* Pods_IpLocationFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610F1002498D506E91540537 /* Pods_IpLocationFinder.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		327A30B1248577D900111AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327A30B7248581AF00111AEB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		327A30BF2486445100111AEB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		328B92C724B6616D0050E3F0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3426323B399E8429C47D212B /* Pods-IpLocationFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IpLocationFinder.debug.xcconfig"; path = "Target Support Files/Pods-IpLocationFinder/Pods-IpLocationFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		610F1002498D506E91540537 /* Pods_IpLocationFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IpLocationFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C3135A821766BE82FB0214 /* Pods-IpLocationFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IpLocationFinder.release.xcconfig"; path = "Target Support Files/Pods-IpLocationFinder/Pods-IpLocationFinder.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				327A30A9248577D400111AEB /* Main.storyboard */,
 				327A30A7248577D400111AEB /* MainViewController.swift */,
+				328B92C724B6616D0050E3F0 /* Model.swift */,
 				32372CBF2490CE5000BA312E /* NetworkServices.swift */,
 				327A30BF2486445100111AEB /* MapViewController.swift */,
 				32372CC3249137B600BA312E /* Extensions.swift */,
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328B92C824B6616D0050E3F0 /* Model.swift in Sources */,
 				32372CC02490CE5000BA312E /* NetworkServices.swift in Sources */,
 				327A30A8248577D400111AEB /* MainViewController.swift in Sources */,
 				327A30A4248577D400111AEB /* AppDelegate.swift in Sources */,
