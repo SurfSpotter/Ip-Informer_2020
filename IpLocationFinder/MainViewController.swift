@@ -34,7 +34,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
        
         
-            
+        ipTFOut.becomeFirstResponder() // показывает клавиатуру при запуске приложения
             
            
 
@@ -56,10 +56,10 @@ class MainViewController: UIViewController {
             
             return
            }
-        
+        ipTFOut.resignFirstResponder() // Убирает клавиатуру с view
         NetRequest.share.getRequest(ip: ipTFOut.text!)  // Это функция сетевого слоя
         getRequest(ip: ipTFOut.text!)
-          
+        
             
         } else {
             
