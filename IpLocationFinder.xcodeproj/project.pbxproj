@@ -60,6 +60,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		324F6C5924D0495400469185 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				324F6C5C24D0498300469185 /* Model */,
+				324F6C5B24D0497500469185 /* View */,
+				324F6C5A24D0496800469185 /* Controller */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		324F6C5A24D0496800469185 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		324F6C5B24D0497500469185 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				327A30A9248577D400111AEB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		324F6C5C24D0498300469185 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		324F6C5D24D049B300469185 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
 		327A3097248577D400111AEB = {
 			isa = PBXGroup;
 			children = (
@@ -81,7 +120,8 @@
 		327A30A2248577D400111AEB /* IpLocationFinder */ = {
 			isa = PBXGroup;
 			children = (
-				327A30A9248577D400111AEB /* Main.storyboard */,
+				324F6C5D24D049B300469185 /* MainViewController */,
+				324F6C5924D0495400469185 /* Application */,
 				327A30A7248577D400111AEB /* MainViewController.swift */,
 				328B92C724B6616D0050E3F0 /* Model.swift */,
 				32372CBF2490CE5000BA312E /* NetworkServices.swift */,

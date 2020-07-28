@@ -58,7 +58,7 @@ class MainViewController: UIViewController {
            }
         ipTFOut.resignFirstResponder() // Убирает клавиатуру с view
         NetRequest.share.getRequest(ip: ipTFOut.text!)  // Это функция сетевого слоя
-        getRequest(ip: ipTFOut.text!)
+     //   getRequest(ip: ipTFOut.text!)
         
             
         } else {
