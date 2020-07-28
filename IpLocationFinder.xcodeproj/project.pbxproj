@@ -73,6 +73,8 @@
 		324F6C5A24D0496800469185 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				327A30A3248577D400111AEB /* AppDelegate.swift */,
+				327A30A5248577D400111AEB /* SceneDelegate.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -80,6 +82,7 @@
 		324F6C5B24D0497500469185 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				327A30AE248577D900111AEB /* LaunchScreen.storyboard */,
 				327A30A9248577D400111AEB /* Main.storyboard */,
 			);
 			path = View;
@@ -92,20 +95,108 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		324F6C5D24D049B300469185 /* MainViewController */ = {
+		324F6C5D24D049B300469185 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				324F6C6424D04A4400469185 /* Model */,
+				324F6C6324D04A4100469185 /* View */,
+				324F6C6224D04A3E00469185 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		324F6C5E24D04A0800469185 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				324F6C6124D04A3B00469185 /* Model */,
+				324F6C6024D04A3700469185 /* View */,
+				324F6C6524D04A8C00469185 /* Controller */,
+			);
+			name = Map;
+			path = IpLocationFinder;
+			sourceTree = "<group>";
+		};
+		324F6C6024D04A3700469185 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = MainViewController;
+			name = View;
+			sourceTree = "<group>";
+		};
+		324F6C6124D04A3B00469185 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		324F6C6224D04A3E00469185 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				327A30A7248577D400111AEB /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		324F6C6324D04A4100469185 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		324F6C6424D04A4400469185 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				328B92C724B6616D0050E3F0 /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		324F6C6524D04A8C00469185 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				327A30BF2486445100111AEB /* MapViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		324F6C6624D04AAE00469185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				327A30B1248577D900111AEB /* Info.plist */,
+				327A30AC248577D900111AEB /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		324F6C6724D04B7300469185 /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				32372CBF2490CE5000BA312E /* NetworkServices.swift */,
+			);
+			name = NetworkServices;
+			sourceTree = "<group>";
+		};
+		324F6C6824D04BA200469185 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				32372CC3249137B600BA312E /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		327A3097248577D400111AEB = {
 			isa = PBXGroup;
 			children = (
 				327A30A2248577D400111AEB /* IpLocationFinder */,
+				324F6C5D24D049B300469185 /* Main */,
+				324F6C5E24D04A0800469185 /* Map */,
+				324F6C6624D04AAE00469185 /* Supporting Files */,
 				327A30A1248577D400111AEB /* Products */,
 				E739D05BFC9CCCC0E2C1504A /* Pods */,
 				169E53526FA1D714CD7FB716 /* Frameworks */,
+				324F6C6824D04BA200469185 /* Extensions */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,18 +211,8 @@
 		327A30A2248577D400111AEB /* IpLocationFinder */ = {
 			isa = PBXGroup;
 			children = (
-				324F6C5D24D049B300469185 /* MainViewController */,
 				324F6C5924D0495400469185 /* Application */,
-				327A30A7248577D400111AEB /* MainViewController.swift */,
-				328B92C724B6616D0050E3F0 /* Model.swift */,
-				32372CBF2490CE5000BA312E /* NetworkServices.swift */,
-				327A30BF2486445100111AEB /* MapViewController.swift */,
-				32372CC3249137B600BA312E /* Extensions.swift */,
-				327A30AC248577D900111AEB /* Assets.xcassets */,
-				327A30AE248577D900111AEB /* LaunchScreen.storyboard */,
-				327A30A3248577D400111AEB /* AppDelegate.swift */,
-				327A30A5248577D400111AEB /* SceneDelegate.swift */,
-				327A30B1248577D900111AEB /* Info.plist */,
+				324F6C6724D04B7300469185 /* NetworkServices */,
 			);
 			path = IpLocationFinder;
 			sourceTree = "<group>";
@@ -342,6 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -396,6 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -413,7 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84ZHP38C6Z;
-				INFOPLIST_FILE = IpLocationFinder/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,7 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84ZHP38C6Z;
-				INFOPLIST_FILE = IpLocationFinder/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
