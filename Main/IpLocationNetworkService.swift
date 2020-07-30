@@ -14,8 +14,10 @@ import Alamofire
 public class IpLocationNetworkService {
     private init() {}
     
+    
+    
     static func getIpInfo(ip: String, completion: @escaping (Any) -> ()) {
-       
+    
         // создаем URL с учетом полученного IP
         guard let url = URL(string: "https://ip1.p.rapidapi.com/" + ip )  else {
             print ("Wrong url from IpLocationNetworkService!" )

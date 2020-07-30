@@ -13,30 +13,7 @@ public class NetworkService {
     private init() {}
     static let shared = NetworkService()
     
-    
-    // Создаем метод для HTML запроса
-    public func makeRequest(url: URL, headers: [String:String], completion: (Any) -> ()) {
-        
-        let request = NSMutableURLRequest(url: url)
-        request.cachePolicy = .useProtocolCachePolicy
-        request.timeoutInterval = 10.0
-        request.allHTTPHeaderFields = headers
-        
-        let session = URLSession.shared
-        session.dataTask(with: request as URLRequest) { (data, urlResponse, error) in
-            guard let data = data else {return}
-            
-            do { let json = try JSONSerialization.data(withJSONObject: data, options: []) }
-            catch {
-                print(error)
-            }
-            print("From NetworkService")
-            print(data)
-        }.resume()
-        
-        
-        
-}
+  
 
 // Принимает URL, Header, в completion передает данные типа [String:Any]
 public func makeRequestWithAlamofire(url: URL, headers: HTTPHeaders, completion: @escaping (Any) -> ()) {
@@ -81,6 +58,34 @@ public func makeRequestWithAlamofire(url: URL, headers: HTTPHeaders, completion:
 /*
  
  
+       
+         // Создаем метод для HTML запроса
+         public func makeRequest(url: URL, headers: [String:String], completion: (Any) -> ()) {
+             
+             let request = NSMutableURLRequest(url: url)
+             request.cachePolicy = .useProtocolCachePolicy
+             request.timeoutInterval = 10.0
+             request.allHTTPHeaderFields = headers
+             
+             let session = URLSession.shared
+             session.dataTask(with: request as URLRequest) { (data, urlResponse, error) in
+                 guard let data = data else {return}
+                 
+                 do { let json = try JSONSerialization.data(withJSONObject: data, options: []) }
+                 catch {
+                     print(error)
+                 }
+                 print("From NetworkService")
+                 print(data)
+             }.resume()
+             
+             
+             
+     }
+     
+     
+     
+     
  //// это старый код но рабочий
  let vc = UIViewController()
  

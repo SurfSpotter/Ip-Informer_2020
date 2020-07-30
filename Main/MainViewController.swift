@@ -17,7 +17,11 @@ import UIKit
 import Alamofire
 
 
+
+   
+
 class MainViewController: UIViewController {
+    
     
     
     @IBOutlet weak var imgOut: UIImageView!
@@ -28,16 +32,21 @@ class MainViewController: UIViewController {
     @IBOutlet weak var cityOut: UILabel!
     
     
-    
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         
       
         IpLocationNetworkService.getIpInfo(ip: "72.203.226.94") { (json) in
-            print("fromVC")
-            print(json)
+        let re = GetResponse(json: json)
+            searchResults = SearchResults(dict: re.finalJsonFile)
+            
         }
+        
+       print("SR:")
+        print(searchResults?.city)
+        
+        
         
 //        NetworkService.shared.makeRequest(url: URL(string: "https://ip1.p.rapidapi.com/69.244.23.13")!,
 //                                          headers: ["x-rapidapi-host": "ip1.p.rapidapi.com",
