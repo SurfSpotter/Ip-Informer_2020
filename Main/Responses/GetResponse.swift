@@ -17,9 +17,17 @@ struct GetResponse {
         var jsonConvert = json as! [String:AnyObject]
         var jsonFlags:[String:AnyObject] = [:]
         
+        
+        // Если есть какие либо косяки с правильностью IP, то выводиться сообщение
+        if jsonConvert["message"] != nil {
+            print(Errors.internalServerError)
+            print(jsonConvert["message"])
+            return
+        }
+        
+        
         for i in jsonConvert {
             if i.key == "flag" {
-                
                 let arrFlags:[String:AnyObject] = i.value as! [String : AnyObject]
                 jsonFlags = arrFlags
                 
@@ -28,7 +36,7 @@ struct GetResponse {
         }
         jsonConvert["emoji"] = jsonFlags["emoji"]
         finalJsonFile = jsonConvert
-        print(jsonConvert["emoji"])
+        
     
     }
    

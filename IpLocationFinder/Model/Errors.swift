@@ -9,7 +9,8 @@
 import Foundation
 
 enum Errors: Error {
-    case LoadingFailed
-    case WrongJsonFormat
-    case ApiKeyIsNotValid
+    case loadingFailed
+    case wrongJsonFormat
+    case apiKeyIsNotValid
+    case internalServerError
 }

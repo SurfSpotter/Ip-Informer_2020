@@ -18,12 +18,11 @@ public class NetworkService {
 // Принимает URL, Header, в completion передает данные типа [String:Any]
 public func makeRequestWithAlamofire(url: URL, headers: HTTPHeaders, completion: @escaping (Any) -> ()) {
                
-    AF.request(url, headers: headers).responseJSON { (response) in
+    AF.request(url, headers: headers).responseJSON{ (response) in
         if response.error != nil {
-            print("Error when get request! \(String(describing: response.error))")
+            print(Errors.loadingFailed)
             return
         }
-        
         guard let json = response.value as? [String : Any] else { return }
         completion(json)
     }
@@ -31,8 +30,7 @@ public func makeRequestWithAlamofire(url: URL, headers: HTTPHeaders, completion:
 
 
 
-
-
+   
 
 
 

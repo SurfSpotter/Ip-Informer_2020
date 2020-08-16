@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32372CC02490CE5000BA312E /* ✅NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32372CBF2490CE5000BA312E /* ✅NetworkServices.swift */; };
+		32372CC02490CE5000BA312E /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32372CBF2490CE5000BA312E /* NetworkServices.swift */; };
 		32372CC4249137B600BA312E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32372CC3249137B600BA312E /* Extensions.swift */; };
+		325AD55524D308CE0071897B /* Pods_IpLocationFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610F1002498D506E91540537 /* Pods_IpLocationFinder.framework */; };
 		327A30A4248577D400111AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A30A3248577D400111AEB /* AppDelegate.swift */; };
 		327A30A6248577D400111AEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A30A5248577D400111AEB /* SceneDelegate.swift */; };
 		327A30A8248577D400111AEB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A30A7248577D400111AEB /* MainViewController.swift */; };
@@ -16,15 +17,15 @@
 		327A30AD248577D900111AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327A30AC248577D900111AEB /* Assets.xcassets */; };
 		327A30B0248577D900111AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327A30AE248577D900111AEB /* LaunchScreen.storyboard */; };
 		327A30C02486445100111AEB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A30BF2486445100111AEB /* MapViewController.swift */; };
-		328B92C824B6616D0050E3F0 /* ✅Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328B92C724B6616D0050E3F0 /* ✅Model.swift */; };
+		328B92C824B6616D0050E3F0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328B92C724B6616D0050E3F0 /* Model.swift */; };
+		32DB16CD24E880220033CBCB /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB16CC24E880220033CBCB /* MapViewModel.swift */; };
 		32F44B1224D0BCD400FF474C /* IpLocationNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F44B1124D0BCD400FF474C /* IpLocationNetworkService.swift */; };
 		32F44B1524D0C13900FF474C /* GetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F44B1424D0C13900FF474C /* GetResponse.swift */; };
 		32F44B1724D0C20C00FF474C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F44B1624D0C20C00FF474C /* Errors.swift */; };
-		4FEE1AFB2744D2FA0CC146CE /* Pods_IpLocationFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610F1002498D506E91540537 /* Pods_IpLocationFinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32372CBF2490CE5000BA312E /* ✅NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "✅NetworkServices.swift"; sourceTree = "<group>"; };
+		32372CBF2490CE5000BA312E /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
 		32372CC3249137B600BA312E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		327A30A0248577D400111AEB /* IpLocationFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IpLocationFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		327A30A3248577D400111AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +37,8 @@
 		327A30B1248577D900111AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327A30B7248581AF00111AEB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		327A30BF2486445100111AEB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		328B92C724B6616D0050E3F0 /* ✅Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "✅Model.swift"; sourceTree = "<group>"; };
+		328B92C724B6616D0050E3F0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		32DB16CC24E880220033CBCB /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		32F44B1124D0BCD400FF474C /* IpLocationNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpLocationNetworkService.swift; sourceTree = "<group>"; };
 		32F44B1424D0C13900FF474C /* GetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetResponse.swift; sourceTree = "<group>"; };
 		32F44B1624D0C20C00FF474C /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FEE1AFB2744D2FA0CC146CE /* Pods_IpLocationFinder.framework in Frameworks */,
+				325AD55524D308CE0071897B /* Pods_IpLocationFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +137,7 @@
 		324F6C6124D04A3B00469185 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				32DB16CC24E880220033CBCB /* MapViewModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -158,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				32F44B1324D0C10000FF474C /* Responses */,
-				328B92C724B6616D0050E3F0 /* ✅Model.swift */,
+				328B92C724B6616D0050E3F0 /* Model.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -183,7 +186,7 @@
 		324F6C6724D04B7300469185 /* NetworkServices */ = {
 			isa = PBXGroup;
 			children = (
-				32372CBF2490CE5000BA312E /* ✅NetworkServices.swift */,
+				32372CBF2490CE5000BA312E /* NetworkServices.swift */,
 			);
 			name = NetworkServices;
 			sourceTree = "<group>";
@@ -366,12 +369,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				328B92C824B6616D0050E3F0 /* ✅Model.swift in Sources */,
-				32372CC02490CE5000BA312E /* ✅NetworkServices.swift in Sources */,
+				328B92C824B6616D0050E3F0 /* Model.swift in Sources */,
+				32372CC02490CE5000BA312E /* NetworkServices.swift in Sources */,
 				32F44B1524D0C13900FF474C /* GetResponse.swift in Sources */,
 				327A30A8248577D400111AEB /* MainViewController.swift in Sources */,
 				327A30A4248577D400111AEB /* AppDelegate.swift in Sources */,
 				327A30A6248577D400111AEB /* SceneDelegate.swift in Sources */,
+				32DB16CD24E880220033CBCB /* MapViewModel.swift in Sources */,
 				32F44B1724D0C20C00FF474C /* Errors.swift in Sources */,
 				327A30C02486445100111AEB /* MapViewController.swift in Sources */,
 				32F44B1224D0BCD400FF474C /* IpLocationNetworkService.swift in Sources */,
