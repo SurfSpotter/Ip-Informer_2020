@@ -20,8 +20,7 @@ struct GetResponse {
         
         // Если есть какие либо косяки с правильностью IP, то выводиться сообщение
         if jsonConvert["message"] != nil {
-            print(Errors.internalServerError)
-            print(jsonConvert["message"])
+
             return
         }
         
