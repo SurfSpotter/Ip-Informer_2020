@@ -49,43 +49,37 @@
                                     <segue destination="GOG-Zy-JgK" kind="show" id="5Sb-M8-biT"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="equalSpacing" alignment="center" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="SYh-wj-LjS">
-                                <rect key="frame" x="151.5" y="298" width="111.5" height="261.5"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="SYh-wj-LjS">
+                                <rect key="frame" x="0.0" y="298" width="111.5" height="192.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="zLw-Xx-aEf">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="51.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gry-SR-nMq">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Country" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gry-SR-nMq">
                                                 <rect key="frame" x="13.5" y="0.0" width="84.5" height="25.5"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="25.5" id="SMm-wv-A63"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
                                                 <color key="textColor" name="TitleColorGrey"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CountryOut" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bg-wY-cxY">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CountryOut" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bg-wY-cxY">
                                                 <rect key="frame" x="0.0" y="28.5" width="111.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                                 <color key="textColor" name="TitleColorLightGrey"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstItem="gry-SR-nMq" firstAttribute="leading" secondItem="zLw-Xx-aEf" secondAttribute="leading" constant="13.5" id="xEr-mH-pp8"/>
-                                        </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NZG-g6-6yC">
-                                        <rect key="frame" x="10" y="108.5" width="92" height="46.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="NZG-g6-6yC">
+                                        <rect key="frame" x="10" y="72.5" width="92" height="49.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Region" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjQ-AE-17O">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Region" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjQ-AE-17O">
                                                 <rect key="frame" x="8.5" y="0.0" width="75" height="25.5"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
                                                 <color key="textColor" name="TitleColorGrey"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RegionOut" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TES-ok-2Gr">
-                                                <rect key="frame" x="0.0" y="25.5" width="92" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="RegionOut" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TES-ok-2Gr">
+                                                <rect key="frame" x="0.0" y="28.5" width="92" height="21"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                                 <color key="textColor" name="TitleColorLightGrey"/>
                                                 <nil key="highlightedColor"/>
@@ -93,16 +87,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="47c-Vq-ZVY">
-                                        <rect key="frame" x="23.5" y="212" width="65" height="49.5"/>
+                                        <rect key="frame" x="23.5" y="143" width="65" height="49.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x71-0t-huG">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x71-0t-huG">
                                                 <rect key="frame" x="11.5" y="0.0" width="42" height="25.5"/>
-                                                <color key="backgroundColor" red="0.1764705882352941" green="0.19215686274509802" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" name="BackgroundColorMain"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="22"/>
                                                 <color key="textColor" name="TitleColorGrey"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CityOut" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GC0-RH-5F0">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="CityOut" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GC0-RH-5F0">
                                                 <rect key="frame" x="0.0" y="28.5" width="65" height="21"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                                 <color key="textColor" name="TitleColorLightGrey"/>
@@ -132,6 +126,7 @@
                         <outlet property="ipTFOut" destination="eKm-aI-xF0" id="5rd-St-DeW"/>
                         <outlet property="regionLbl" destination="WjQ-AE-17O" id="6ft-ky-eCD"/>
                         <outlet property="regionOut" destination="TES-ok-2Gr" id="l90-Bl-TZf"/>
+                        <outlet property="searchButtonOut" destination="AhX-AV-Qql" id="FKE-PD-fxv"/>
                         <outlet property="showMapButtonOut" destination="PFT-4q-5FP" id="bHh-Aw-BbJ"/>
                     </connections>
                 </viewController>
@@ -150,9 +145,8 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cj6-Ha-oHr">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPx-dY-zwW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPx-dY-zwW">
                                 <rect key="frame" x="331" y="20" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Dismiss"/>
                                 <connections>
                                     <action selector="dismissBtnAct:" destination="GOG-Zy-JgK" eventType="touchUpInside" id="2XN-p4-E0J"/>
@@ -163,8 +157,10 @@
                         <constraints>
                             <constraint firstItem="cj6-Ha-oHr" firstAttribute="leading" secondItem="2yt-Xc-cUy" secondAttribute="leading" id="CeS-Uy-CbM"/>
                             <constraint firstItem="cj6-Ha-oHr" firstAttribute="top" secondItem="2yt-Xc-cUy" secondAttribute="top" id="ChL-vY-eih"/>
+                            <constraint firstItem="nPx-dY-zwW" firstAttribute="top" secondItem="2yt-Xc-cUy" secondAttribute="top" constant="20" id="OEh-Nn-aCW"/>
                             <constraint firstAttribute="bottom" secondItem="cj6-Ha-oHr" secondAttribute="bottom" id="Raw-d7-O0L"/>
                             <constraint firstItem="cj6-Ha-oHr" firstAttribute="trailing" secondItem="2yt-Xc-cUy" secondAttribute="trailing" id="ZL1-t1-IY7"/>
+                            <constraint firstItem="2yt-Xc-cUy" firstAttribute="trailing" secondItem="nPx-dY-zwW" secondAttribute="trailing" constant="29" id="vLm-9y-9bq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2yt-Xc-cUy"/>
                     </view>
