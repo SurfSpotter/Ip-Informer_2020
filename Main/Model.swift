@@ -35,7 +35,6 @@ struct SearchResults {
         self.country = country
         self.region = region
         self.city = city
-        //self.flag = dict["flag"] as! UIImage
         self.emoji = emoji
     }
    }
