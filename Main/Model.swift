@@ -39,7 +39,9 @@ struct SearchResults {
     }
    }
    
-  
+  // создаем объект структуры
+     var searchResults : SearchResults?
+     
  
 enum showOrHide {
     case  show
