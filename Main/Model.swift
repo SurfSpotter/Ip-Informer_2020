@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 //  создаем структуру под  нужные данные
-   struct SearchResults {
+struct SearchResults {
        var longitude : Double = 0.0
        var latitude : Double = 0.0
        var country :String = "none"
@@ -18,8 +18,31 @@ import UIKit
        var city: String = "none"
        var flag: UIImage? = nil
        var emoji: String = ""
+    
+    init () {}
+    
+    init? (dict: [String:AnyObject]) {
+        guard let latitude = dict["latitude"] as? Double,
+        let longitude = dict["longitude"] as? Double,
+        let country = dict["country"] as? String,
+        let region = dict["region"] as? String,
+        let city = dict["city"] as? String,
+        let emoji = dict["emoji"] as? String
+            else {return nil}
+        //
+        self.latitude = latitude
+        self.longitude = longitude
+        self.country = country
+        self.region = region
+        self.city = city
+        //self.flag = dict["flag"] as! UIImage
+        self.emoji = emoji
+    }
    }
    
-   // создаем объект структуры
-   var searchResults = SearchResults()
+  
  
+enum showOrHide {
+    case  show
+    case  hide
+}

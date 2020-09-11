@@ -24,7 +24,6 @@ struct GetResponse {
             return
         }
         
-        
         for i in jsonConvert {
             if i.key == "flag" {
                 let arrFlags:[String:AnyObject] = i.value as! [String : AnyObject]

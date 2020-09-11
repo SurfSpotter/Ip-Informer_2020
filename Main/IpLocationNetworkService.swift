@@ -26,6 +26,7 @@ public class IpLocationNetworkService {
         //    создаем хедеры
         let headers = HTTPHeaders(["x-rapidapi-host": "ip1.p.rapidapi.com", "x-rapidapi-key": "b83edcd79bmsh5d8e5afc777d064p163907jsn3d631587f634"])
         
+        
         // вызываем метод с нужными нам параметрами
         NetworkService.shared.makeRequestWithAlamofire(url: url, headers: headers) { (json) in
             completion(json)

@@ -14,7 +14,7 @@ public class NetworkService {
     static let shared = NetworkService()
     
   
-
+// Это самый обобщенный сервис сетевой загрузки stage 1
 // Принимает URL, Header, в completion передает данные типа [String:Any]
 public func makeRequestWithAlamofire(url: URL, headers: HTTPHeaders, completion: @escaping (Any) -> ()) {
                

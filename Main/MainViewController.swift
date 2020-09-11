@@ -41,6 +41,11 @@ class MainViewController: UIViewController {
         
     }
     
+ 
+    
+    // создаем объект структуры
+    // убери его в модель
+      var searchResults = SearchResults()
     
     
     
@@ -60,26 +65,49 @@ class MainViewController: UIViewController {
                
                // Сетевой запрос
                IpLocationNetworkService.getIpInfo(ip: ipTFOut.text!) { (json) in
-                   let re = GetResponse(json: json)
-                   searchResults = SearchResults(dict: re.finalJsonFile)
-                   if searchResults != nil {
-                       self.countryOut.text = searchResults!.emoji + " " + searchResults!.country
-                       self.regionOut.text = searchResults?.region
-                       self.cityOut.text = searchResults?.city
-                       self.infoLabelMain.text = "🥳 Success! 🥳  "
-                       self.showOrHideUiElements(state: .show, elementsArray: self.arrayOfOutlets)
-                   } else {
-                       
-                       self.infoLabelMain.text = """
-                       
-                       Sorry, we did not find
-                       😐information about this address.😐
-                       
-                       """
-                       self.infoLabelMain.textAlignment = .center
-                       self.showOrHideUiElements(state: .hide, elementsArray: self.arrayOfOutlets)
-                       
-                   }
+                
+                // сетевой запрос запихиваем в стурктуру которая обрабатывает запрос в нужный нам
+                let response = GetResponse(json: json)
+                print(response)
+                self.searchResults = SearchResults(dict: response.finalJsonFile)!
+                
+                if self.searchResults != nil {
+                    self.countryOut.text = self.searchResults.emoji + " " + self.searchResults.country
+                    self.regionOut.text = self.searchResults.region
+                    self.cityOut.text = self.searchResults.city
+                                       self.infoLabelMain.text = "🥳 Success! 🥳  "
+                                       self.showOrHideUiElements(state: .show, elementsArray: self.arrayOfOutlets)
+                                   } else {
+                
+                                       self.infoLabelMain.text = """
+                                       Sorry, we did not find
+                                       😐information about this address.😐
+                                       """
+                                       self.infoLabelMain.textAlignment = .center
+                                       self.showOrHideUiElements(state: .hide, elementsArray: self.arrayOfOutlets)
+                
+                                   }
+            
+//                   let re = GetResponse(json: json)
+//                   searchResults = SearchResults(dict: re.finalJsonFile)
+//                   if searchResults != nil {
+//                       self.countryOut.text = searchResults!.emoji + " " + searchResults!.country
+//                       self.regionOut.text = searchResults?.region
+//                       self.cityOut.text = searchResults?.city
+//                       self.infoLabelMain.text = "🥳 Success! 🥳  "
+//                       self.showOrHideUiElements(state: .show, elementsArray: self.arrayOfOutlets)
+//                   } else {
+//
+//                       self.infoLabelMain.text = """
+//
+//                       Sorry, we did not find
+//                       😐information about this address.😐
+//
+//                       """
+//                       self.infoLabelMain.textAlignment = .center
+//                       self.showOrHideUiElements(state: .hide, elementsArray: self.arrayOfOutlets)
+//
+//                   }
                }
                
                ipTFOut.resignFirstResponder() // Убирает клавиатуру с view
