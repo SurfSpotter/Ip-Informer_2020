@@ -9,7 +9,7 @@
 import Foundation
 
 
-/*  Пока закоментим чтобы не выдавало ошибок
+//Пока закоментим чтобы не выдавало ошибок
 
 struct CurrentCoordinates {
     let latitude : Double
@@ -27,4 +27,3 @@ struct CurrentCoordinates {
 }
  
 
-*/

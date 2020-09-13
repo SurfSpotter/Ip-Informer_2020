@@ -165,7 +165,6 @@ class MainViewController: UIViewController {
         infoLabelMain.heightAnchor.constraint(equalTo: mView.heightAnchor, multiplier: 0.15 ).isActive = true
         infoLabelMain.topAnchor.constraint(equalTo: mView.topAnchor, constant: 10.0).isActive = true
         infoLabelMain.centerXAnchor.constraint(equalTo: mView.centerXAnchor).isActive = true
-        infoLabelMain.backgroundColor = .blue
         infoLabelMain.adjustsFontSizeToFitWidth = true
     }
     
@@ -175,7 +174,6 @@ class MainViewController: UIViewController {
         ipTFOut.heightAnchor.constraint(equalToConstant: 40.0).isActive = true
         ipTFOut.topAnchor.constraint(equalTo: infoLabelMain.bottomAnchor, constant: 10.0).isActive = true
         ipTFOut.centerXAnchor.constraint(equalTo: mView.centerXAnchor).isActive = true
-        ipTFOut.backgroundColor = .blue
         ipTFOut.adjustsFontSizeToFitWidth = true
     }
     
@@ -194,7 +192,6 @@ class MainViewController: UIViewController {
         countryLbl.heightAnchor.constraint(equalToConstant: 30).isActive = true
         countryLbl.topAnchor.constraint(equalTo: searchButtonOut.bottomAnchor, constant: 10.0).isActive = true
         countryLbl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        countryLbl.backgroundColor = .blue
         countryLbl.adjustsFontSizeToFitWidth = true
         countryLbl.textAlignment = .center
         
@@ -207,7 +204,6 @@ class MainViewController: UIViewController {
         countryOut.heightAnchor.constraint(equalToConstant: 27).isActive = true
         countryOut.topAnchor.constraint(equalTo: countryLbl.bottomAnchor, constant: 10.0).isActive = true
         countryOut.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        countryOut.backgroundColor = .blue
         countryOut.adjustsFontSizeToFitWidth = true
         countryOut.textAlignment = .center
         
@@ -220,7 +216,6 @@ class MainViewController: UIViewController {
         regionLbl.heightAnchor.constraint(equalToConstant: 30).isActive = true
         regionLbl.topAnchor.constraint(equalTo: countryOut.bottomAnchor, constant: 10.0).isActive = true
         regionLbl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        regionLbl.backgroundColor = .blue
         regionLbl.adjustsFontSizeToFitWidth = true
         regionLbl.textAlignment = .center
         
@@ -232,7 +227,6 @@ class MainViewController: UIViewController {
         regionOut.heightAnchor.constraint(equalToConstant: 27).isActive = true
         regionOut.topAnchor.constraint(equalTo: regionLbl.bottomAnchor, constant: 10.0).isActive = true
         regionOut.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        regionOut.backgroundColor = .blue
         regionOut.adjustsFontSizeToFitWidth = true
         regionOut.textAlignment = .center
         
@@ -246,7 +240,6 @@ class MainViewController: UIViewController {
         cityLbl.heightAnchor.constraint(equalToConstant: 30).isActive = true
         cityLbl.topAnchor.constraint(equalTo: regionOut.bottomAnchor, constant: 10.0).isActive = true
         cityLbl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        cityLbl.backgroundColor = .blue
         cityLbl.adjustsFontSizeToFitWidth = true
         cityLbl.textAlignment = .center
         
@@ -260,7 +253,6 @@ class MainViewController: UIViewController {
         cityOut.topAnchor.constraint(equalTo: cityLbl.bottomAnchor, constant: 10.0).isActive = true
         cityOut.bottomAnchor.constraint(greaterThanOrEqualTo: showMapButtonOut.topAnchor, constant: -10.00).isActive = false
         cityOut.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        cityOut.backgroundColor = .blue
         cityOut.adjustsFontSizeToFitWidth = true
         cityOut.textAlignment = .center
         

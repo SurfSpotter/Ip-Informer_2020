@@ -18,7 +18,7 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /*
+
         let currentCoordinates = CurrentCoordinates()  // инициализируем переменную с содержащую координаты
         let ipCurrentLocation = CLLocationCoordinate2D(latitude: currentCoordinates.latitude, longitude: currentCoordinates.longitude)
         mapViewOut.setCenter(ipCurrentLocation, animated: true) // Устанавливаем центр на карте
@@ -28,7 +28,7 @@ class MapViewController: UIViewController {
         annotation.coordinate = ipCurrentLocation
         mapViewOut.addAnnotation(annotation)
         
- */
+ 
     }
     
 

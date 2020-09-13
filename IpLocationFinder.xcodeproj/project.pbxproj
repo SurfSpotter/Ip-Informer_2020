@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		32372CBF2490CE5000BA312E /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
 		32372CC3249137B600BA312E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		327A30A0248577D400111AEB /* IpLocationFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IpLocationFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		327A30A0248577D400111AEB /* ipinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		327A30A3248577D400111AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		327A30A5248577D400111AEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		327A30A7248577D400111AEB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -216,7 +216,7 @@
 		327A30A1248577D400111AEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				327A30A0248577D400111AEB /* IpLocationFinder.app */,
+				327A30A0248577D400111AEB /* ipinfo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 			);
 			name = IpLocationFinder;
 			productName = IpLocationFinder;
-			productReference = 327A30A0248577D400111AEB /* IpLocationFinder.app */;
+			productReference = 327A30A0248577D400111AEB /* ipinfo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -553,7 +553,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfSpot.IpLocationFinder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ipinfo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -573,7 +573,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfSpot.IpLocationFinder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ipinfo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
