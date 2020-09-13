@@ -67,9 +67,14 @@ class MainViewController: UIViewController {
                 let response = GetResponse(json: json)
                 searchResults = SearchResults(dict: response.finalJsonFile)
                 if searchResults != nil {
-                    self.countryOut.text = searchResults!.emoji + " " + searchResults!.country
-                    self.regionOut.text = searchResults?.region
-                    self.cityOut.text = searchResults?.city
+                    
+                    // это ветвление сделано для того чтобы подставить вместо "" "-"
+                    if searchResults?.region != "" {
+                        self.regionOut.text = searchResults?.region
+                    } else { self.regionOut.text = "-"}
+                    if searchResults?.city != "" {
+                        self.cityOut.text = searchResults?.city
+                    } else { self.cityOut.text = "-"}
                                        self.infoLabelMain.text = "🥳 Success! 🥳  "
                                        self.showOrHideUiElements(state: .show, elementsArray: self.arrayOfOutlets)
                                    } else {
