@@ -51,23 +51,24 @@ class MainViewController: UIViewController {
        fileprivate func requestWithLogic() {
            // подгружаем данне, вкидиваем картинки
            if ipTFOut.text != "" {
-               
+            let textFieldWithfixComma = ipTFOut.text!.replacingOccurrences(of: ",", with: ".") // заменяем запятую на точку
                // проверяем допустимые символы в айпи адресе
                let characterset = CharacterSet(charactersIn: " 0123456789.")
-               if ipTFOut.text!.rangeOfCharacter(from: characterset.inverted) != nil {
+               if textFieldWithfixComma.rangeOfCharacter(from: characterset.inverted) != nil {
                    self.showOrHideUiElements(state: .hide, elementsArray: arrayOfOutlets)
                    self.infoLabelMain.text = "🙅🏾‍♂️You entered invalid characters 🙅‍♀️"
                    return
                }
                
                // Сетевой запрос
-               IpLocationNetworkService.getIpInfo(ip: ipTFOut.text!) { (json) in
+
+               IpLocationNetworkService.getIpInfo(ip: textFieldWithfixComma) { (json) in
                 
                 // сетевой запрос запихиваем в стурктуру которая обрабатывает запрос в нужный нам
                 let response = GetResponse(json: json)
                 searchResults = SearchResults(dict: response.finalJsonFile)
                 if searchResults != nil {
-                    
+                    self.countryOut.text = searchResults?.country
                     // это ветвление сделано для того чтобы подставить вместо "" "-"
                     if searchResults?.region != "" {
                         self.regionOut.text = searchResults?.region
