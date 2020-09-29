@@ -1,11 +1,15 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "c2f196234d821cd66f02710c9996dc52"
-build_time: [1601358079, 35504000]
+options: "75d84e774202e351d8b4ecf428131f0e"
+build_time: [1601358087, 241852000]
 inputs:
-  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/Model.swift": [1601358074, 918298880]
-  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/NetworkServices.swift": [1601358074, 919139339]
-  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/MainViewController.swift": [1601358074, 916691176]
-  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/AppDelegate.swift": [1601358074, 912468150]
-  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/SceneDelegate.swift": [1601358074, 919720381]
-  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/MapViewController.swift": [1601358074, 917698206]
-  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/Extensions.swift": [1601358074, 915552120]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/Main/Model.swift": [1601358083, 320301229]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/NetworkServices.swift": [1601358083, 314289622]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/Main/Responses/GetResponse.swift": [1601358083, 321261948]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/Main/MainViewController.swift": [1601358083, 318528198]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/Main/Constraints.swift": [1601358083, 316915570]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/Controller/AppDelegate.swift": [1601358083, 310784647]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/MapViewModel.swift": [1601358083, 312457331]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/Model/Errors.swift": [1601358083, 313441397]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/MapViewController.swift": [1601358083, 311695242]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/Main/IpLocationNetworkService.swift": [1601358083, 317884016]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/Extensions/Extensions.swift": [1601358083, 308868751]

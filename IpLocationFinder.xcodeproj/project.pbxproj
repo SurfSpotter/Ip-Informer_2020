@@ -77,6 +77,7 @@
 				324F6C6724D04B7300469185 /* NetworkServices */,
 			);
 			name = Application;
+			path = IpLocationFinder;
 			sourceTree = "<group>";
 		};
 		324F6C5A24D0496800469185 /* Controller */ = {
@@ -202,7 +203,7 @@
 		327A3097248577D400111AEB = {
 			isa = PBXGroup;
 			children = (
-				327A30A2248577D400111AEB /* IpLocationFinder */,
+				324F6C5924D0495400469185 /* Application */,
 				324F6C5D24D049B300469185 /* Main */,
 				324F6C5E24D04A0800469185 /* Map */,
 				324F6C6624D04AAE00469185 /* Supporting Files */,
@@ -219,14 +220,6 @@
 				327A30A0248577D400111AEB /* ip informer.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		327A30A2248577D400111AEB /* IpLocationFinder */ = {
-			isa = PBXGroup;
-			children = (
-				324F6C5924D0495400469185 /* Application */,
-			);
-			path = IpLocationFinder;
 			sourceTree = "<group>";
 		};
 		32F44B1024D0BC9F00FF474C /* IpLocationNetworkService */ = {
