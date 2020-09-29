@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "c2f196234d821cd66f02710c9996dc52"
+build_time: [1601358079, 35504000]
+inputs:
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/Model.swift": [1601358074, 918298880]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/NetworkServices.swift": [1601358074, 919139339]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/MainViewController.swift": [1601358074, 916691176]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/AppDelegate.swift": [1601358074, 912468150]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/SceneDelegate.swift": [1601358074, 919720381]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/MapViewController.swift": [1601358074, 917698206]
+  "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/IpLocationFinder/Extensions.swift": [1601358074, 915552120]

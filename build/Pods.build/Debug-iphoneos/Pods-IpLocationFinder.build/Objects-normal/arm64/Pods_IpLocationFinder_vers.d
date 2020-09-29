@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/alexeichigarskikh/Documents/Xcode\ and\ Swift/IpLocationFinder/build/Pods.build/Debug-iphoneos/Pods-IpLocationFinder.build/DerivedSources/Pods_IpLocationFinder_vers.c

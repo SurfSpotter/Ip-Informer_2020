@@ -1,0 +1,890 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainViewController"
+provides-nominal:
+- "16IpLocationFinder18MainViewControllerC"
+provides-member:
+- ["16IpLocationFinder18MainViewControllerC", ""]
+provides-dynamic-lookup:
+- "cityOut"
+- "countryOut"
+- "emoji"
+- "getRequest"
+- "imgOut"
+- "ipTFOut"
+- "refreshOutlets"
+- "regionOut"
+- "searchBtnAct"
+- "showMapAct"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "=="
+- !private "AF"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- !private "CharacterSet"
+- !private "Double"
+- !private "HTTPHeaders"
+- "MainViewController"
+- !private "NetRequest"
+- "String"
+- !private "StringLiteralType"
+- !private "UIImage"
+- "UIImageView"
+- "UILabel"
+- "UITextField"
+- "UIViewController"
+- !private "print"
+- !private "searchResults"
+depends-member:
+- !private ["SK", "rangeOfCharacter"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "contentMode"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "AF"]
+- !private ["s7CVarArgP", "CharacterSet"]
+- !private ["s7CVarArgP", "NetRequest"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "blue"]
+- !private ["s7CVarArgP", "cityOut"]
+- !private ["s7CVarArgP", "contentMode"]
+- !private ["s7CVarArgP", "countryOut"]
+- !private ["s7CVarArgP", "emoji"]
+- !private ["s7CVarArgP", "getRequest"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imgOut"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "ipTFOut"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "rangeOfCharacter"]
+- !private ["s7CVarArgP", "refreshOutlets"]
+- !private ["s7CVarArgP", "regionOut"]
+- !private ["s7CVarArgP", "searchResults"]
+- !private ["s7CVarArgP", "showAlert"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["10Foundation12CharacterSetV", "init"]
+- !private ["10Foundation12CharacterSetV", "inverted"]
+- !private ["Sl", "rangeOfCharacter"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "rangeOfCharacter"]
+- !private ["So17UIViewContentModeV", "scaleToFill"]
+- !private ["s28CustomDebugStringConvertibleP", "AF"]
+- !private ["s28CustomDebugStringConvertibleP", "CharacterSet"]
+- !private ["s28CustomDebugStringConvertibleP", "NetRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "blue"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "cityOut"]
+- !private ["s28CustomDebugStringConvertibleP", "contentMode"]
+- !private ["s28CustomDebugStringConvertibleP", "countryOut"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "emoji"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "getRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imgOut"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inverted"]
+- !private ["s28CustomDebugStringConvertibleP", "ipTFOut"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "rangeOfCharacter"]
+- !private ["s28CustomDebugStringConvertibleP", "refreshOutlets"]
+- !private ["s28CustomDebugStringConvertibleP", "regionOut"]
+- !private ["s28CustomDebugStringConvertibleP", "searchResults"]
+- !private ["s28CustomDebugStringConvertibleP", "showAlert"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "backgroundColor"]
+- !private ["s17CustomReflectableP", "blue"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "contentMode"]
+- !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "rangeOfCharacter"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "AF"]
+- !private ["s23CustomStringConvertibleP", "CharacterSet"]
+- !private ["s23CustomStringConvertibleP", "NetRequest"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "blue"]
+- !private ["s23CustomStringConvertibleP", "cityOut"]
+- !private ["s23CustomStringConvertibleP", "contentMode"]
+- !private ["s23CustomStringConvertibleP", "countryOut"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "emoji"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "getRequest"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imgOut"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "inverted"]
+- !private ["s23CustomStringConvertibleP", "ipTFOut"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "rangeOfCharacter"]
+- !private ["s23CustomStringConvertibleP", "refreshOutlets"]
+- !private ["s23CustomStringConvertibleP", "regionOut"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "searchResults"]
+- !private ["s23CustomStringConvertibleP", "showAlert"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["9Alamofire11DataRequestC", "response"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "error"]
+- !private ["9Alamofire12DataResponseV", "value"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "blue"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "contentMode"]
+- !private ["Se", "image"]
+- !private ["Se", "init"]
+- !private ["Se", "inverted"]
+- !private ["Se", "rangeOfCharacter"]
+- !private ["Se", "subscript"]
+- !private ["Se", "text"]
+- !private ["SD", "subscript"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "blue"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "contentMode"]
+- !private ["SE", "image"]
+- !private ["SE", "init"]
+- !private ["SE", "inverted"]
+- !private ["SE", "rangeOfCharacter"]
+- !private ["SE", "subscript"]
+- !private ["SE", "text"]
+- !private ["SQ", "AF"]
+- !private ["SQ", "CharacterSet"]
+- !private ["SQ", "NetRequest"]
+- !private ["SQ", "UIImage"]
+- ["SQ", ""]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "blue"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "cityOut"]
+- !private ["SQ", "contentMode"]
+- !private ["SQ", "countryOut"]
+- !private ["SQ", "emoji"]
+- !private ["SQ", "getRequest"]
+- !private ["SQ", "image"]
+- !private ["SQ", "imgOut"]
+- !private ["SQ", "init"]
+- !private ["SQ", "inverted"]
+- !private ["SQ", "ipTFOut"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rangeOfCharacter"]
+- !private ["SQ", "refreshOutlets"]
+- !private ["SQ", "regionOut"]
+- !private ["SQ", "response"]
+- !private ["SQ", "responseJSON"]
+- !private ["SQ", "scaleToFill"]
+- !private ["SQ", "searchResults"]
+- !private ["SQ", "showAlert"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "text"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "inverted"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "rangeOfCharacter"]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
+- !private ["s23ExpressibleByNilLiteralP", "blue"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s23ExpressibleByNilLiteralP", "contentMode"]
+- !private ["s23ExpressibleByNilLiteralP", "image"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", "rangeOfCharacter"]
+- !private ["s26ExpressibleByStringLiteralP", "rangeOfCharacter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "rangeOfCharacter"]
+- !private ["SH", "AF"]
+- !private ["SH", "CharacterSet"]
+- !private ["SH", "NetRequest"]
+- !private ["SH", "UIImage"]
+- ["SH", ""]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "blue"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "cityOut"]
+- !private ["SH", "contentMode"]
+- !private ["SH", "countryOut"]
+- !private ["SH", "emoji"]
+- !private ["SH", "getRequest"]
+- !private ["SH", "image"]
+- !private ["SH", "imgOut"]
+- !private ["SH", "init"]
+- !private ["SH", "inverted"]
+- !private ["SH", "ipTFOut"]
+- !private ["SH", "print"]
+- !private ["SH", "rangeOfCharacter"]
+- !private ["SH", "refreshOutlets"]
+- !private ["SH", "regionOut"]
+- !private ["SH", "response"]
+- !private ["SH", "responseJSON"]
+- !private ["SH", "scaleToFill"]
+- !private ["SH", "searchResults"]
+- !private ["SH", "showAlert"]
+- !private ["SH", "subscript"]
+- !private ["SH", "text"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "rangeOfCharacter"]
+- !private ["16IpLocationFinder18MainViewControllerC", "AF"]
+- !private ["16IpLocationFinder18MainViewControllerC", "CharacterSet"]
+- !private ["16IpLocationFinder18MainViewControllerC", "Double"]
+- !private ["16IpLocationFinder18MainViewControllerC", "HTTPHeaders"]
+- !private ["16IpLocationFinder18MainViewControllerC", "NetRequest"]
+- ["16IpLocationFinder18MainViewControllerC", "String"]
+- !private ["16IpLocationFinder18MainViewControllerC", "UIImage"]
+- ["16IpLocationFinder18MainViewControllerC", "UIImageView"]
+- ["16IpLocationFinder18MainViewControllerC", "UILabel"]
+- ["16IpLocationFinder18MainViewControllerC", "UITextField"]
+- ["16IpLocationFinder18MainViewControllerC", "cityOut"]
+- ["16IpLocationFinder18MainViewControllerC", "countryOut"]
+- ["16IpLocationFinder18MainViewControllerC", "deinit"]
+- ["16IpLocationFinder18MainViewControllerC", "emoji"]
+- ["16IpLocationFinder18MainViewControllerC", "getRequest"]
+- ["16IpLocationFinder18MainViewControllerC", "imgOut"]
+- ["16IpLocationFinder18MainViewControllerC", "init"]
+- ["16IpLocationFinder18MainViewControllerC", "ipTFOut"]
+- !private ["16IpLocationFinder18MainViewControllerC", "print"]
+- ["16IpLocationFinder18MainViewControllerC", "refreshOutlets"]
+- ["16IpLocationFinder18MainViewControllerC", "regionOut"]
+- ["16IpLocationFinder18MainViewControllerC", "searchBtnAct"]
+- !private ["16IpLocationFinder18MainViewControllerC", "searchResults"]
+- !private ["16IpLocationFinder18MainViewControllerC", "showAlert"]
+- ["16IpLocationFinder18MainViewControllerC", "showMapAct"]
+- ["16IpLocationFinder18MainViewControllerC", "viewDidLoad"]
+- !private ["s10MirrorPathP", "rangeOfCharacter"]
+- !private ["So8NSCodingP", "AF"]
+- !private ["So8NSCodingP", "CharacterSet"]
+- !private ["So8NSCodingP", "NetRequest"]
+- !private ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "blue"]
+- !private ["So8NSCodingP", "cityOut"]
+- !private ["So8NSCodingP", "contentMode"]
+- !private ["So8NSCodingP", "countryOut"]
+- !private ["So8NSCodingP", "emoji"]
+- !private ["So8NSCodingP", "getRequest"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imgOut"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "ipTFOut"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "rangeOfCharacter"]
+- !private ["So8NSCodingP", "refreshOutlets"]
+- !private ["So8NSCodingP", "regionOut"]
+- !private ["So8NSCodingP", "searchResults"]
+- !private ["So8NSCodingP", "showAlert"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "blue"]
+- !private ["So9NSCopyingP", "rangeOfCharacter"]
+- !private ["So26NSExtensionRequestHandlingP", "AF"]
+- !private ["So26NSExtensionRequestHandlingP", "CharacterSet"]
+- !private ["So26NSExtensionRequestHandlingP", "NetRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "cityOut"]
+- !private ["So26NSExtensionRequestHandlingP", "countryOut"]
+- !private ["So26NSExtensionRequestHandlingP", "emoji"]
+- !private ["So26NSExtensionRequestHandlingP", "getRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "imgOut"]
+- !private ["So26NSExtensionRequestHandlingP", "ipTFOut"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "refreshOutlets"]
+- !private ["So26NSExtensionRequestHandlingP", "regionOut"]
+- !private ["So26NSExtensionRequestHandlingP", "searchResults"]
+- !private ["So26NSExtensionRequestHandlingP", "showAlert"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "blue"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "rangeOfCharacter"]
+- !private ["So21NSItemProviderWritingP", "blue"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "rangeOfCharacter"]
+- !private ["So16NSMutableCopyingP", "rangeOfCharacter"]
+- !private ["So8NSObjectC", "AF"]
+- !private ["So8NSObjectC", "CharacterSet"]
+- !private ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "HTTPHeaders"]
+- !private ["So8NSObjectC", "NetRequest"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "blue"]
+- ["So8NSObjectC", "cityOut"]
+- !private ["So8NSObjectC", "contentMode"]
+- ["So8NSObjectC", "countryOut"]
+- ["So8NSObjectC", "emoji"]
+- ["So8NSObjectC", "getRequest"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imgOut"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "ipTFOut"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "rangeOfCharacter"]
+- ["So8NSObjectC", "refreshOutlets"]
+- ["So8NSObjectC", "regionOut"]
+- ["So8NSObjectC", "searchBtnAct"]
+- !private ["So8NSObjectC", "searchResults"]
+- !private ["So8NSObjectC", "showAlert"]
+- ["So8NSObjectC", "showMapAct"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "AF"]
+- !private ["So8NSObjectP", "CharacterSet"]
+- !private ["So8NSObjectP", "NetRequest"]
+- !private ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "blue"]
+- !private ["So8NSObjectP", "cityOut"]
+- !private ["So8NSObjectP", "contentMode"]
+- !private ["So8NSObjectP", "countryOut"]
+- !private ["So8NSObjectP", "emoji"]
+- !private ["So8NSObjectP", "getRequest"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "imgOut"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "ipTFOut"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "rangeOfCharacter"]
+- !private ["So8NSObjectP", "refreshOutlets"]
+- !private ["So8NSObjectP", "regionOut"]
+- !private ["So8NSObjectP", "searchResults"]
+- !private ["So8NSObjectP", "showAlert"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "blue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "rangeOfCharacter"]
+- !private ["So8NSStringC", "rangeOfCharacter"]
+- !private ["16IpLocationFinder10NetRequestC", "getRequest"]
+- !private ["16IpLocationFinder10NetRequestC", "share"]
+- !private ["Sq", "backgroundColor"]
+- !private ["Sq", "blue"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sq", "contentMode"]
+- !private ["Sq", "image"]
+- !private ["Sq", "text"]
+- !private ["Sm", "rangeOfCharacter"]
+- !private ["SY", "scaleToFill"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "inverted"]
+- !private ["9Alamofire7RequestC", "response"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire15RequestDelegateP", "request"]
+- !private ["16IpLocationFinder13SearchResultsV", "city"]
+- !private ["16IpLocationFinder13SearchResultsV", "country"]
+- !private ["16IpLocationFinder13SearchResultsV", "emoji"]
+- !private ["16IpLocationFinder13SearchResultsV", "flag"]
+- !private ["16IpLocationFinder13SearchResultsV", "latitude"]
+- !private ["16IpLocationFinder13SearchResultsV", "longitude"]
+- !private ["16IpLocationFinder13SearchResultsV", "region"]
+- !private ["ST", "rangeOfCharacter"]
+- !private ["ST", "subscript"]
+- !private ["9Alamofire7SessionC", "request"]
+- !private ["9Alamofire20SessionStateProviderP", "request"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "inverted"]
+- !private ["SS", "rangeOfCharacter"]
+- !private ["Sy", "rangeOfCharacter"]
+- !private ["s16TextOutputStreamP", "rangeOfCharacter"]
+- !private ["s20TextOutputStreamableP", "rangeOfCharacter"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "contentMode"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "contentMode"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "contentMode"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "AF"]
+- !private ["So21UIAppearanceContainerP", "CharacterSet"]
+- !private ["So21UIAppearanceContainerP", "NetRequest"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "cityOut"]
+- !private ["So21UIAppearanceContainerP", "contentMode"]
+- !private ["So21UIAppearanceContainerP", "countryOut"]
+- !private ["So21UIAppearanceContainerP", "emoji"]
+- !private ["So21UIAppearanceContainerP", "getRequest"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "imgOut"]
+- !private ["So21UIAppearanceContainerP", "ipTFOut"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "refreshOutlets"]
+- !private ["So21UIAppearanceContainerP", "regionOut"]
+- !private ["So21UIAppearanceContainerP", "searchResults"]
+- !private ["So21UIAppearanceContainerP", "showAlert"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So7UIColorC", "blue"]
+- !private ["So18UIContentContainerP", "AF"]
+- !private ["So18UIContentContainerP", "CharacterSet"]
+- !private ["So18UIContentContainerP", "NetRequest"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "cityOut"]
+- !private ["So18UIContentContainerP", "countryOut"]
+- !private ["So18UIContentContainerP", "emoji"]
+- !private ["So18UIContentContainerP", "getRequest"]
+- !private ["So18UIContentContainerP", "imgOut"]
+- !private ["So18UIContentContainerP", "ipTFOut"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "refreshOutlets"]
+- !private ["So18UIContentContainerP", "regionOut"]
+- !private ["So18UIContentContainerP", "searchResults"]
+- !private ["So18UIContentContainerP", "showAlert"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "contentMode"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "contentMode"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "AF"]
+- !private ["So18UIFocusEnvironmentP", "CharacterSet"]
+- !private ["So18UIFocusEnvironmentP", "NetRequest"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "cityOut"]
+- !private ["So18UIFocusEnvironmentP", "contentMode"]
+- !private ["So18UIFocusEnvironmentP", "countryOut"]
+- !private ["So18UIFocusEnvironmentP", "emoji"]
+- !private ["So18UIFocusEnvironmentP", "getRequest"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "imgOut"]
+- !private ["So18UIFocusEnvironmentP", "ipTFOut"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "refreshOutlets"]
+- !private ["So18UIFocusEnvironmentP", "regionOut"]
+- !private ["So18UIFocusEnvironmentP", "searchResults"]
+- !private ["So18UIFocusEnvironmentP", "showAlert"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "contentMode"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "contentMode"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "backgroundColor"]
+- !private ["So11UIImageViewC", "contentMode"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "contentMode"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "AF"]
+- !private ["So30UIPasteConfigurationSupportingP", "CharacterSet"]
+- !private ["So30UIPasteConfigurationSupportingP", "NetRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "cityOut"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentMode"]
+- !private ["So30UIPasteConfigurationSupportingP", "countryOut"]
+- !private ["So30UIPasteConfigurationSupportingP", "emoji"]
+- !private ["So30UIPasteConfigurationSupportingP", "getRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "imgOut"]
+- !private ["So30UIPasteConfigurationSupportingP", "ipTFOut"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "refreshOutlets"]
+- !private ["So30UIPasteConfigurationSupportingP", "regionOut"]
+- !private ["So30UIPasteConfigurationSupportingP", "searchResults"]
+- !private ["So30UIPasteConfigurationSupportingP", "showAlert"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "AF"]
+- !private ["So11UIResponderC", "CharacterSet"]
+- !private ["So11UIResponderC", "Double"]
+- !private ["So11UIResponderC", "HTTPHeaders"]
+- !private ["So11UIResponderC", "NetRequest"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "cityOut"]
+- !private ["So11UIResponderC", "contentMode"]
+- ["So11UIResponderC", "countryOut"]
+- ["So11UIResponderC", "emoji"]
+- ["So11UIResponderC", "getRequest"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "imgOut"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "ipTFOut"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "refreshOutlets"]
+- ["So11UIResponderC", "regionOut"]
+- ["So11UIResponderC", "searchBtnAct"]
+- !private ["So11UIResponderC", "searchResults"]
+- !private ["So11UIResponderC", "showAlert"]
+- ["So11UIResponderC", "showMapAct"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AF"]
+- !private ["So30UIResponderStandardEditActionsP", "CharacterSet"]
+- !private ["So30UIResponderStandardEditActionsP", "NetRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "cityOut"]
+- !private ["So30UIResponderStandardEditActionsP", "contentMode"]
+- !private ["So30UIResponderStandardEditActionsP", "countryOut"]
+- !private ["So30UIResponderStandardEditActionsP", "emoji"]
+- !private ["So30UIResponderStandardEditActionsP", "getRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "imgOut"]
+- !private ["So30UIResponderStandardEditActionsP", "ipTFOut"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "refreshOutlets"]
+- !private ["So30UIResponderStandardEditActionsP", "regionOut"]
+- !private ["So30UIResponderStandardEditActionsP", "searchResults"]
+- !private ["So30UIResponderStandardEditActionsP", "showAlert"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "AF"]
+- !private ["So16UIStateRestoringP", "CharacterSet"]
+- !private ["So16UIStateRestoringP", "NetRequest"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "cityOut"]
+- !private ["So16UIStateRestoringP", "countryOut"]
+- !private ["So16UIStateRestoringP", "emoji"]
+- !private ["So16UIStateRestoringP", "getRequest"]
+- !private ["So16UIStateRestoringP", "imgOut"]
+- !private ["So16UIStateRestoringP", "ipTFOut"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "refreshOutlets"]
+- !private ["So16UIStateRestoringP", "regionOut"]
+- !private ["So16UIStateRestoringP", "searchResults"]
+- !private ["So16UIStateRestoringP", "showAlert"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "AF"]
+- !private ["So18UITraitEnvironmentP", "CharacterSet"]
+- !private ["So18UITraitEnvironmentP", "NetRequest"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "cityOut"]
+- !private ["So18UITraitEnvironmentP", "contentMode"]
+- !private ["So18UITraitEnvironmentP", "countryOut"]
+- !private ["So18UITraitEnvironmentP", "emoji"]
+- !private ["So18UITraitEnvironmentP", "getRequest"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "imgOut"]
+- !private ["So18UITraitEnvironmentP", "ipTFOut"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "refreshOutlets"]
+- !private ["So18UITraitEnvironmentP", "regionOut"]
+- !private ["So18UITraitEnvironmentP", "searchResults"]
+- !private ["So18UITraitEnvironmentP", "showAlert"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "AF"]
+- !private ["So23UIUserActivityRestoringP", "CharacterSet"]
+- !private ["So23UIUserActivityRestoringP", "NetRequest"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "cityOut"]
+- !private ["So23UIUserActivityRestoringP", "contentMode"]
+- !private ["So23UIUserActivityRestoringP", "countryOut"]
+- !private ["So23UIUserActivityRestoringP", "emoji"]
+- !private ["So23UIUserActivityRestoringP", "getRequest"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- !private ["So23UIUserActivityRestoringP", "imgOut"]
+- !private ["So23UIUserActivityRestoringP", "ipTFOut"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "refreshOutlets"]
+- !private ["So23UIUserActivityRestoringP", "regionOut"]
+- !private ["So23UIUserActivityRestoringP", "searchResults"]
+- !private ["So23UIUserActivityRestoringP", "showAlert"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "contentMode"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "AF"]
+- !private ["So16UIViewControllerC", "CharacterSet"]
+- !private ["So16UIViewControllerC", "Double"]
+- !private ["So16UIViewControllerC", "HTTPHeaders"]
+- !private ["So16UIViewControllerC", "NetRequest"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "cityOut"]
+- ["So16UIViewControllerC", "countryOut"]
+- ["So16UIViewControllerC", "emoji"]
+- ["So16UIViewControllerC", "getRequest"]
+- ["So16UIViewControllerC", "imgOut"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "ipTFOut"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "refreshOutlets"]
+- ["So16UIViewControllerC", "regionOut"]
+- ["So16UIViewControllerC", "searchBtnAct"]
+- !private ["So16UIViewControllerC", "searchResults"]
+- !private ["So16UIViewControllerC", "showAlert"]
+- ["So16UIViewControllerC", "showMapAct"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["9Alamofire14URLConvertibleP", "rangeOfCharacter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "rangeOfCharacter"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "rangeOfCharacter"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "rangeOfCharacter"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "rangeOfCharacter"]
+- !private ["s26_ExpressibleByColorLiteralP", "blue"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "rangeOfCharacter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "rangeOfCharacter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AF"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CharacterSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "blue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cityOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "countryOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emoji"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imgOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ipTFOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rangeOfCharacter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "refreshOutlets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "regionOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "searchResults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showAlert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AF"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CharacterSet"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NetRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "blue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cityOut"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "countryOut"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emoji"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imgOut"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ipTFOut"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rangeOfCharacter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "refreshOutlets"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "regionOut"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchResults"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showAlert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "blue"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "contentMode"]
+- !private ["s21_ObjectiveCBridgeableP", "image"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "inverted"]
+- !private ["s21_ObjectiveCBridgeableP", "rangeOfCharacter"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "contentMode"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "Sl"
+- !private "SL"
+- !private "So17UIViewContentModeV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "16IpLocationFinder18MainViewControllerC"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "16IpLocationFinder10NetRequestC"
+- !private "Sq"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire15RequestDelegateP"
+- !private "16IpLocationFinder13SearchResultsV"
+- !private "ST"
+- !private "9Alamofire7SessionC"
+- !private "9Alamofire20SessionStateProviderP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alexeichigarskikh/Documents/Xcode and Swift/IpLocationFinder/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "23d828f52f59617064865e71ee791a2b"
