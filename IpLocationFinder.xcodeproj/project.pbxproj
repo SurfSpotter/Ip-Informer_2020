@@ -19,6 +19,7 @@
 		327A30C02486445100111AEB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A30BF2486445100111AEB /* MapViewController.swift */; };
 		328B92C824B6616D0050E3F0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328B92C724B6616D0050E3F0 /* Model.swift */; };
 		32DB16CD24E880220033CBCB /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB16CC24E880220033CBCB /* MapViewModel.swift */; };
+		32F172F92522F8BA008D6F0C /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F172F82522F8BA008D6F0C /* Constraints.swift */; };
 		32F44B1224D0BCD400FF474C /* IpLocationNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F44B1124D0BCD400FF474C /* IpLocationNetworkService.swift */; };
 		32F44B1524D0C13900FF474C /* GetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F44B1424D0C13900FF474C /* GetResponse.swift */; };
 		32F44B1724D0C20C00FF474C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F44B1624D0C20C00FF474C /* Errors.swift */; };
@@ -39,6 +40,7 @@
 		327A30BF2486445100111AEB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		328B92C724B6616D0050E3F0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		32DB16CC24E880220033CBCB /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		32F172F82522F8BA008D6F0C /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		32F44B1124D0BCD400FF474C /* IpLocationNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpLocationNetworkService.swift; sourceTree = "<group>"; };
 		32F44B1424D0C13900FF474C /* GetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetResponse.swift; sourceTree = "<group>"; };
 		32F44B1624D0C20C00FF474C /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				327A30A7248577D400111AEB /* MainViewController.swift */,
+				32F172F82522F8BA008D6F0C /* Constraints.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				32372CC02490CE5000BA312E /* NetworkServices.swift in Sources */,
 				32F44B1524D0C13900FF474C /* GetResponse.swift in Sources */,
 				327A30A8248577D400111AEB /* MainViewController.swift in Sources */,
+				32F172F92522F8BA008D6F0C /* Constraints.swift in Sources */,
 				327A30A4248577D400111AEB /* AppDelegate.swift in Sources */,
 				327A30A6248577D400111AEB /* SceneDelegate.swift in Sources */,
 				32DB16CD24E880220033CBCB /* MapViewModel.swift in Sources */,
